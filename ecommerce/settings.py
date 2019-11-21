@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['00bebab5b2a94e5592ab301c7e569bb3.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = [os.environ.get('AWSC9_HOST')]
 
 
 # Application definition
