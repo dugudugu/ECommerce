@@ -62,7 +62,7 @@ python-debian==0.1.32
 pytz==2019.2
 pyxdg==0.25
 PyYAML==5.1.2
-requests==2.18.4
+requests==2.22.0
 requests-unixsocket==0.1.5
 roman==2.0.0
 rsa==3.4.2
@@ -72,6 +72,7 @@ service-identity==16.0.0
 six==1.12.0
 ssh-import-id==5.7
 stevedore==1.31.0
+stripe==2.40.0
 systemd-python==234
 Twisted==17.9.0
 ufw==0.36
